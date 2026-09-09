@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
+using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,13 +24,6 @@ public sealed class PrettyConsoleAppException : Exception {
     public PrettyConsoleAppException(string message) : base(message) { }
     public PrettyConsoleAppException(string message, 
         Exception innerException) : base(message, innerException) { }
-
-// to leave this block in the first commit
-#pragma warning disable SYSLIB0051
-    // Required for binary/structured serialization compatibility before .NET 7
-    private PrettyConsoleAppException(SerializationInfo info, 
-        StreamingContext context) : base(info, context) { }
-#pragma warning restore SYSLIB0051
 }
 /// <summary>
 /// `PrettyConsoleApp` is a sealed class designed to create a console application with a 
