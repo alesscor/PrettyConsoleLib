@@ -65,6 +65,4 @@ Project `PrettyConsoleLib.Specs.Acceptance` (targeting `net8.0`) references:
 Please follow repository `CONTRIBUTING.md` for coding standards, tests and PR workflow.
 
 ## License
-Add a `LICENSE` file and reference it here.
-
-This version maintains the original structure while seamlessly integrating the new content, ensuring clarity and coherence throughout the document.
+This project is licensed under the terms contained in the `LICENSE` file in this repository. See `LICENSE` for details.
