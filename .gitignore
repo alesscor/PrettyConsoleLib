@@ -1,0 +1,45 @@
+# Visual Studio / Rider
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+
+# Build outputs
+bin/
+obj/
+TestResults/
+*.nupkg
+*.nuspec
+*.cache
+*.log
+
+# Rider / JetBrains
+*.dotCover
+.idea/
+
+# Test/coverage
+coverage/
+coverage*.xml
+*.coverage
+*.trx
+
+# NuGet packages
+packages/
+
+# SpecFlow / generated code
+# Most SpecFlow MSBuild generation writes into obj/, which is ignored above.
+# If your build generates feature code next to .feature files, optionally ignore them:
+*.feature.cs
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Ignore user-specific VS Code workspace
+.vscode/
