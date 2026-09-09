@@ -1,4 +1,4 @@
-﻿# PrettyConsoleLib
+# PrettyConsoleLib
 
 Welcome to the `PrettyConsoleLib` project! This library is designed to enhance console output formatting in .NET applications, providing a more visually appealing and user-friendly experience.
 
@@ -121,3 +121,16 @@ Please follow the project's `CODE_OF_CONDUCT.md`. If not present, be respectful 
 ## License
 
 This project is licensed under the terms contained in the `LICENSE` file in this repository. See `LICENSE` for details.
+
+## Roadmap: Test-framework migration (SpecFlow → Reqnroll)
+
+Planned: introduce a new test project `PrettyConsoleLib.Specs.Reqnroll` (target `net8.0`) and migrate acceptance scenarios incrementally from SpecFlow to Reqnroll.
+
+Approach:
+- Add `PrettyConsoleLib.Specs.Reqnroll` alongside the existing SpecFlow project; do not delete SpecFlow until parity is reached.
+- Port scenarios one-by-one and keep feature files as source of truth during the migration.
+- Run both test projects in CI during the transition; update CI after parity to run only Reqnroll.
+- Document migration steps and contributor instructions in `CONTRIBUTING.md`.
+- Contact maintainers (@alesscor) to coordinate larger changes or breaking API updates.
+
+Contributions to the migration are welcome — open an issue or PR referencing this roadmap
